@@ -1,5 +1,7 @@
-!#/usr/bin/env bash
+#!/usr/bin/env bash
 # displaying "best school and hi" with while 
+
+counter=0
 while [[ $counter -lt 10 ]]; do
   echo "Best School"
   if [[ $counter -eq 8 ]]; then
